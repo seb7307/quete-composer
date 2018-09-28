@@ -1,0 +1,19 @@
+{
+    "name": "seb/composer",
+    "description": "test1",
+    "authors": [
+        {
+            "name": "seb7307",
+            "email": "boutigny.sebastien73@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src"
+        }
+    }
+}
